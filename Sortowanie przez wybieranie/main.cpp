@@ -14,10 +14,10 @@ int find_min(int tab[], int n){
     return j;
 }
 
-void my_swap(int tab[], int i, int j){
-    int tmp=tab[i];
-    tab[i]=tab[j];
-    tab[j]=tmp;
+void my_swap(int tab[], int krecio, int miecio){
+    int tmp=tab[krecio];
+    tab[krecio]=tab[miecio];
+    tab[miecio]=tmp;
 }
 
 int main()
@@ -26,16 +26,17 @@ int main()
     srand(time(0));
     for(i=0; i < 10 ; i++){
         tab[i]=( rand() % 10 );
-      cout << tab[i] << endl;
+    //  cout << tab[i] << endl;
 
     }
 
     int my_min=find_min(tab, N);
-    cout << my_min << endl;
+   // cout << my_min << endl;
     for(i=0; i < 10; i++){
+        my_swap(tab, i, my_min);
+        my_min=find_min(tab, N);
 
 
-    my_swap;
 
     }
 
