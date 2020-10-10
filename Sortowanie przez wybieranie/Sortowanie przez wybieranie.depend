@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1602359031 source:c:\users\it\desktop\project c++\sortowanie przez wybieranie\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+
