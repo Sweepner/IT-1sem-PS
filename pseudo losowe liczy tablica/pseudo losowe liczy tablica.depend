@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1602088173 source:c:\users\it\desktop\c++project\pseudo losowe liczy tablica\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+

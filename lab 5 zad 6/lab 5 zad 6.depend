@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1603111248 source:c:\users\it\desktop\c++project\lab 5 zad 6\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+
