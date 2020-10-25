@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1603639596 source:c:\users\it\desktop\project c++\prosty kalkurator\main.cpp
+	<iostream>
+	<stdio.h>
+	<cstdlib>
+	<conio.h>
+
